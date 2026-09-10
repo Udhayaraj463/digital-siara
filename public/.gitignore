@@ -1,0 +1,20 @@
+# Node & Build artifacts
+node_modules/
+dist/
+
+# API keys & private credentials
+key.env.txt
+.env
+
+# Raw unprocessed archives
+*.zip
+
+# Python artifacts
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# OS clutter
+.DS_Store
+__MACOSX/
