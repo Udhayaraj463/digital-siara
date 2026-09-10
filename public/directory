@@ -1,0 +1,27 @@
+digital-siara/
+│
+├── .gitignore
+├── key.env.txt                   # Ignored by git! Contains your GEMINI_API_KEY
+├── Test.zip                      # Ignored by git! Your raw zip dump
+├── main_pipeline.py              # Your Python pipeline script
+│
+├── public/                       # Pipeline drops assets directly here
+│   ├── vault_index.json          # Auto-generated database
+│   └── uploads/                  # Auto-generated transcoded files (.jpg, .mp4, .pdf)
+│       └── Test/
+│           ├── photo_opt.jpg
+│           └── clip.mp4
+│
+├── src/                          # React + 21st.dev components
+│   ├── components/
+│   │   └── ui/
+│   │       ├── image-stream-hero.tsx
+│   │       └── scroll-morph-hero.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+│
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
